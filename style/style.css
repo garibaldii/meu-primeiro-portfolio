@@ -1,0 +1,164 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: #151515;
+
+    .title {
+        font-size: 400%;
+        margin: 0;
+    }
+}
+
+
+
+
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10%;
+
+    .nav_name {
+        color: white;
+        font-size: 200%;
+    }
+
+    #icons {
+        display: flex;
+        width: 12%;
+        justify-content: flex-end;
+    }
+
+    .icon_img {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+}
+
+
+header {
+
+    #presentation_txt {
+        width: 48%;
+        line-height: 200%;
+        margin-bottom: 10%;
+    }
+
+    #container_knowledge {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin-top: 10%;
+
+    }
+
+}
+
+main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    #project_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+footer {
+
+    #container_contact {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #box_footer {
+        width: 50%;
+        margin-right: 17%;
+    }
+
+    #footer_container_input {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+
+        .footer_input {
+            background-color: transparent;
+            font-weight: 600;
+            margin: 3%;
+            height: 100%;
+            padding: 3.5%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: white;
+            outline: none;
+
+        }
+    }
+
+    #footer_btn {
+        border: none;
+        background-color: transparent;
+        width: fit-content;
+        margin-left: auto;
+        color: white;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        outline: 0;
+        cursor: pointer;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+
+    #footer_btn1{
+        margin-left: auto;
+        width: fit-content;
+        margin-top: 5%;
+        
+    }
+
+
+}
+
+
+.formated_btn {
+    width: fit-content;
+
+    .btn_contact {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+
+    .line_btn {
+        margin: 0px;
+        background-color: yellow;
+        height: 2px;
+    }
+
+}
+
+.line_divisor {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
+
+img {
+    filter: brightness(0) invert(1);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
